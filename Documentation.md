@@ -6,20 +6,20 @@ A lightweight and flexible event and buffer management framework for Roblox Stud
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [API Reference](#api-reference)
-  - [NetLite.New](#netlitenew)
-  - [NetLite:CreateEvent](#netlitecreateevent)
-  - [NetLite:RemoveEvent](#netliteremoveevent)
-  - [NetLite:FireEvent](#netlitefireevent)
-  - [NetLite:FireAllEvents](#netlitefireallevents)
-  - [NetLite:AddBuffer](#netliteaddbuffer)
-  - [NetLite:EditBuffer](#netliteeditbuffer)
-  - [NetLite:BufferException](#netlitebufferexception)
-- [Usage Examples](#usage-examples)
-- [License](#license)
+• [Introduction](#introduction) </br>
+• [Features](#features) </br>
+• [Installation](#installation) </br>
+• [API Reference](#api-reference) </br>
+  &emsp;• [NetLite.New](#netlitenew) </br>
+  &emsp;• [NetLite:CreateEvent](#netlitecreateevent) </br>
+  &emsp;• [NetLite:RemoveEvent](#netliteremoveevent) </br>
+  &emsp;• [NetLite:FireEvent](#netlitefireevent) </br>
+  &emsp;• [NetLite:FireAllEvents](#netlitefireallevents) </br>
+  &emsp;• [NetLite:AddBuffer](#netliteaddbuffer) </br>
+  &emsp;• [NetLite:EditBuffer](#netliteeditbuffer) </br>
+  &emsp;• [NetLite:BufferException](#netlitebufferexception) </br>
+• [Usage Examples](#usage-examples) </br>
+• [License](#license)
 
 ---
 
