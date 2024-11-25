@@ -31,10 +31,10 @@ NetLite is a simple yet powerful framework designed for Roblox Studio, providing
 
 ## Features
 
-- **Event Management**: Create, fire, and remove events with ease.
-- **Buffer Handling**: Add and edit buffers for data management.
-- **Rate Limiting**: Enforce rate limits on events.
-- **Priority System**: Handle events based on priority levels.
+• **Event Management**: Create, fire, and remove events with ease.
+• **Buffer Handling**: Add and edit buffers for data management.
+• **Rate Limiting**: Enforce rate limits on events.
+• **Priority System**: Handle events based on priority levels.
 
 ---
 
@@ -52,3 +52,48 @@ Creates a new instance of the NetLite framework.
 
 ```lua
 local framework = NetLite.New()
+```
+Returns a new `NetLite` instance.
+
+### `NetLite:CreateEvent`
+
+Registers a new event in the framework.
+
+```lua
+framework:CreateEvent(eventName, eventSettings, eventFunc)
+```
+#### Parameters:
+
+• `eventName` (string): Name of the event.
+• `eventSettings` (EventSettings): Event configuration, including priority and rate limits.
+• `eventFunc` (function): Callback function for the event.
+
+### `NetLite:RemoveEvent`
+
+Removes an event from the framework.
+
+```lua
+framework:RemoveEvent(eventName)
+```
+#### Parameters:
+
+• `eventName` (string): Name of the event to remove.
+
+
+### `NetLite:FireEvent`
+
+Triggers a specific event by its name.
+
+```lua
+local success, result = framework:FireEvent(eventName, ...)
+```
+#### Parameters:
+
+• `eventName` (string): Name of the event.
+• `...` (any): Arguments to pass to the event function.
+
+#### Returns:
+
+• `success` (boolean): Whether the event executed successfully.
+• `result` (any): The result of the event function.
+
